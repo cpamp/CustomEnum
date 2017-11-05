@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.27004.2006
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomEnum", "StringEnum\CustomEnum.csproj", "{2962CBC7-FBF0-488F-A3E7-09F066F123ED}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomEnum.Tests", "CustomEnum.Tests\CustomEnum.Tests.csproj", "{28ABDABD-6564-4054-8D12-A0FEB5E84711}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{3FC2558C-C69F-4935-AA82-3D6854FC14BF}"
@@ -14,20 +12,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Unit Test Metrics", "Unit T
 		Unit Test Metrics\GenerateUnitTestMetrics.bat = Unit Test Metrics\GenerateUnitTestMetrics.bat
 	EndProjectSection
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomEnum", "CustomEnum\CustomEnum.csproj", "{7701AB28-EDDA-49FE-BB82-384EB0D78B0B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2962CBC7-FBF0-488F-A3E7-09F066F123ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2962CBC7-FBF0-488F-A3E7-09F066F123ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2962CBC7-FBF0-488F-A3E7-09F066F123ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2962CBC7-FBF0-488F-A3E7-09F066F123ED}.Release|Any CPU.Build.0 = Release|Any CPU
 		{28ABDABD-6564-4054-8D12-A0FEB5E84711}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{28ABDABD-6564-4054-8D12-A0FEB5E84711}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{28ABDABD-6564-4054-8D12-A0FEB5E84711}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{28ABDABD-6564-4054-8D12-A0FEB5E84711}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7701AB28-EDDA-49FE-BB82-384EB0D78B0B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7701AB28-EDDA-49FE-BB82-384EB0D78B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7701AB28-EDDA-49FE-BB82-384EB0D78B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7701AB28-EDDA-49FE-BB82-384EB0D78B0B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

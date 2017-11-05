@@ -57,8 +57,8 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\StringEnum\CustomEnum.csproj">
-      <Project>{2962cbc7-fbf0-488f-a3e7-09f066f123ed}</Project>
+    <ProjectReference Include="..\CustomEnum\CustomEnum.csproj">
+      <Project>{7701ab28-edda-49fe-bb82-384eb0d78b0b}</Project>
       <Name>CustomEnum</Name>
     </ProjectReference>
   </ItemGroup>
